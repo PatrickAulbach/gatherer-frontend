@@ -1,0 +1,55 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "value": {
+        "timeStamp": "2022-04-30T17:35:53.4992362",
+        "statusCode": 200,
+        "status": "OK",
+        "message": "Card added",
+        "data": {
+          "Card": {
+            "id": 4,
+            "name": "The Meathook Massacre",
+            "manaCost": "{X}{B}{B}",
+            "text": "When The Meathook Massacre enters the battlefield, each creature gets -X/-X until end of turn.\nWhenever a creature you control dies, each opponent loses 1 life.\nWhenever a creature an opponent controls dies, you gain 1 life.",
+            "multiverseId": 534886,
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=534886&type=card"
+          }
+        }
+      }
+    },
+    {
+      "timeStamp": "2022-04-30T17:46:31.0290624",
+      "statusCode": 200,
+      "status": "OK",
+      "message": "Card added",
+      "data": {
+        "Card": {
+          "id": 4,
+          "name": "Path to Exile",
+          "manaCost": "{W}",
+          "text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.",
+          "multiverseId": 489698,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=489698&type=card"
+        }
+      }
+    },
+    {
+      "timeStamp": "2022-04-30T17:48:29.4075386",
+      "statusCode": 200,
+      "status": "OK",
+      "message": "Card added",
+      "data": {
+        "Card": {
+          "id": 5,
+          "name": "Chandra's Outrage",
+          "manaCost": "{2}{R}{R}",
+          "text": "Chandra's Outrage deals 4 damage to target creature and 2 damage to that creature's controller.",
+          "multiverseId": 442113,
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=442113&type=card"
+        }
+      }
+    }
+  ]
+}

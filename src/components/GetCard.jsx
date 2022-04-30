@@ -1,11 +1,13 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
+import GathererContext from "../context/GathererContext";
 
-function GetCard({ handleInput }) {
+function GetCard() {
   const [id, setId] = useState("");
+  const { fetchCard } = useContext(GathererContext);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    handleInput(id);
+    fetchCard(parseInt(id));
   };
 
   const handleTextChange = (e) => {
