@@ -3,6 +3,7 @@ import GetCard from "./components/GetCard";
 import { BrowserRouter as Router } from "react-router-dom";
 import { GathererProvider } from "./context/GathererContext";
 import ShowCard from "./components/ShowCard";
+import Navbar from "./components/Navbar";
 //import axios from "axios";
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
   return (
     <GathererProvider>
       <Router>
-        <div className="container">
+        <div>
+          <Navbar />
           <GetCard />
           <ShowCard />
         </div>

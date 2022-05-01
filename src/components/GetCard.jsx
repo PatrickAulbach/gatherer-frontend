@@ -25,7 +25,9 @@ function GetCard() {
             placeholder="enter id"
             value={id}
           />
-          <button type="submit">Send</button>
+          <button type="submit" class="btn btn-primary">
+            Send
+          </button>
         </div>
       </form>
     </div>
