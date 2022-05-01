@@ -24,8 +24,9 @@ function GetCard() {
             type="text"
             placeholder="enter id"
             value={id}
+            class="input input-bordered input-primary w-full max-w-xs"
           />
-          <button type="submit" class="btn btn-primary">
+          <button type="submit" className="btn btn-primary">
             Send
           </button>
         </div>
